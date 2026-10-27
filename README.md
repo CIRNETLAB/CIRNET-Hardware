@@ -1,6 +1,6 @@
 # net-Circuit-Hardware
 
-Independent `netcircuit-hardware-service==0.1.1`, Python >=3.11. The `hardware_service` namespace owns local-only Hardware RPC 2.0, virtual/physical stations and private FPGA transport. Runtime consumes exact `netcircuit-contracts==1.0.1` and `netcircuit-simulator==0.2.0` wheels. No API implementation or sibling checkout is needed. Artifacts remain LOCAL_UNPUBLISHED until publication is separately authorized.
+Independent `netcircuit-hardware-service==0.1.1`, Python >=3.11. The `hardware_service` namespace owns local-only Hardware RPC 2.0, virtual/physical stations and private FPGA transport. Runtime consumes exact `netcircuit-contracts==0.1.1` and `netcircuit-simulator==0.1.1` wheels. No API implementation or sibling checkout is needed. Artifacts remain LOCAL_UNPUBLISHED until publication is separately authorized.
 
 Canonical [Lab-First v3.1 architecture](https://github.com/net-Circuit-Remote/net-Circuit-Remote/blob/0d038c7aed15798696223558b4e58f5ffe926aa9/docs/ARCHITECTURE.md), [physical safety authority](https://github.com/net-Circuit-Remote/net-Circuit-Remote/blob/0d038c7aed15798696223558b4e58f5ffe926aa9/docs/PHYSICAL_LAB_SAFETY.md) and approved M0 remain owned by Remote. Safety, topology and correctness are independent. Safe unknown or mismatched components do not become unsafe by identity alone.
 

@@ -37,8 +37,8 @@ def test_selected_installed_hardware_wheel_and_dependencies_have_provenance():
     assert data['hardware']['version'] == '0.1.1'
     assert data['hardware']['owned_files'] == 9
     assert data['hardware']['selected_files'] == 14
-    assert data['contracts']['version'] == '1.0.1'
-    assert data['simulator']['version'] == '0.2.0'
+    assert data['contracts']['version'] == '0.1.1'
+    assert data['simulator']['version'] == '0.1.1'
 
 
 def test_product_source_shadowing_is_rejected():
