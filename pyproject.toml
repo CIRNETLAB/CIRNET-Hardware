@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "netcircuit-hardware-service"
 version = "0.1.1"
-description = "Safety-gated local hardware RPC and virtual stations for net*CIRCUIT Remote"
+description = "Safety-gated local hardware RPC and virtual stations for CIRNET"
 readme = "README.md"
 requires-python = ">=3.11"
 license-files = ["LICENSE"]
@@ -16,6 +16,10 @@ dependencies = [
   "protobuf==7.36.2",
   "jsonschema==4.26.0"
 ]
+
+[project.urls]
+Repository = "https://github.com/CIRNETLAB/CIRNET-Hardware"
+Documentation = "https://github.com/CIRNETLAB/CIRNET-Hardware/blob/master/README.md"
 
 [project.optional-dependencies]
 test = ["pytest==9.1.1"]

@@ -1,5 +1,7 @@
 # Hardware verification and external artifacts
 
+Current repository identity is [CIRNETLAB/CIRNET-Hardware](https://github.com/CIRNETLAB/CIRNET-Hardware); local `net-Circuit-*` directory names and dated extraction/provenance records remain valid. Use direct CIRNETLAB/CIRNET-* numeric release-asset URLs with the existing selected IDs/digests for current CI. Keep immutable v0.1.1 source/tag/artifact provenance separate from candidates rebuilt after documentation or package metadata changes.
+
 Create logs, raw JSON, screenshots, traces, exports, environments and diagnostic output outside every checkout, worktree and Git administration directory from the start. Only Markdown verification evidence belongs in this repository. Preserve approved source assets, fixtures, historical evidence and licenses. Build caches/egg-info are compilation outputs, not diagnostic evidence; do not package them.
 
 Use the pinned independent `netcircuit-artifact-paths==1.0.0a1` DEV wheel and its canonical Node implementation. `scripts/bootstrap_contract_tools.py` verifies wheel/Node digests from `integration/contracts-version.json` before the first allocation, publishes the owning session/context and cleanup CLI before pip, and materializes only the verified allocator as a compilation cache. No consumer owns another path-validation implementation. Node and Git are required; CI pins Node 22.

@@ -1,4 +1,4 @@
-name: Hardware Service
+name: CIRNET Hardware
 on:
   push:
   pull_request:
